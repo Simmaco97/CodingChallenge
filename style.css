@@ -1,0 +1,93 @@
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+body > div{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  background-color: rgba(24, 24, 24, 0.7);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 80px;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header, nav{
+  text-align: center;
+}
+
+header > h1{
+  color: rgb(0,221,0);
+}
+
+header > img{
+  width: 200px;
+  height: 95px;
+}
+
+nav{
+  background-color: rgb(0,221,0);
+  height: 40px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+main > div{
+  color: white;
+  margin-top: 15px;
+}
+
+div > span:first-child{
+  font-size: 25px;
+  color: white;
+}
+
+div h2{
+  display: inline-block;
+  font-size: 20px;
+}
+
+.arrow:after{
+  content: "\27FC";
+}
+
+.barra{
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.barra.primo{
+  background-color: rgb(245,180,83);
+  width: 40%;
+}
+
+.barra.secondo{
+  background-color: rgb(30,195,30);
+  width: 70%;
+}
+
+.barra.terzo{
+  background-color: rgb(190,65,65);
+  width: 20%;
+}
+
+hr{
+  border-color: rgb(30,195,30);
+}
+
+footer{
+  text-align: center;
+  color: white;
+}
